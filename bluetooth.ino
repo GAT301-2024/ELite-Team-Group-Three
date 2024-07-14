@@ -1,12 +1,12 @@
 #include "BluetoothSerial.h"
 BluetoothSerial SerialBT;
 char cmd;
-
+const int ledLight = 4;
 
 void setup() {
   // put your setup code here, to run once:
   SerialBT.begin("ELite Team Home");
-  pinMode(2, OUTPUT);
+  pinMode(ledLight, OUTPUT);
 }
 
 void loop() {
