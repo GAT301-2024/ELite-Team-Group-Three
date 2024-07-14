@@ -5,7 +5,7 @@ const int ledLight = 4;
 
 void setup() {
   // put your setup code here, to run once:
-  SerialBT.begin("ELite Team Home");
+  SerialBT.begin("E-Lite Team Home");
   pinMode(ledLight, OUTPUT);
 }
 
